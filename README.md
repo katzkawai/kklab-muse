@@ -35,4 +35,4 @@ uv run gen_page.py     # index.html を生成
 
 ## 作成について
 
-このサイトは juse-spark-1.3 で作成されました。
+このサイトは muse-spark-1.3 で作成されました。
