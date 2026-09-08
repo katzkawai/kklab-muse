@@ -8,7 +8,7 @@ Python（uv + PEP 723）と単一ファイルWebページの小さな成果物�
 - [japan_gnp.py](japan_gnp.py) — 日本のGNP/GNI・GDPの推移（名目、兆円）を
   テキストの表とグラフで表示するスクリプト（PEP 723形式、依存なし）。
   ※ GNPは現行SNAではGNI（国民総所得）と呼ばれる。
-- [make_chart.py](make_chart.py) — 名目GDP推移の折れ線グラフ
+- [make_chart.py](make_chart.py) — 名目GDP・実質GNI推移の折れ線グラフ
   [gnp_chart.png](gnp_chart.png) を生成するスクリプト（matplotlib使用）。
 - [gen_page.py](gen_page.py) — `gnp_chart.png` をBase64で内包した
   単一ファイルのWebページ [index.html](index.html) を生成するスクリプト。
@@ -30,6 +30,8 @@ uv run gen_page.py     # index.html を生成
   クロスチェック値として公開されている名目GDP系列）
 - World Bank via CEIC の GNI連結系列の端点値（1990年 約466.3兆円、
   2023年 約625.7兆円）
+- World Bank WDI の実質GNI（固定価格・円）系列（1994年以降利用可。
+  グラフでは1995・2000・2005・2010・2015・2020・2024年を使用）
 
 ## 作成について
 
