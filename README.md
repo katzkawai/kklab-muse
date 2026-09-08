@@ -30,3 +30,7 @@ uv run gen_page.py     # index.html を生成
   クロスチェック値として公開されている名目GDP系列）
 - World Bank via CEIC の GNI連結系列の端点値（1990年 約466.3兆円、
   2023年 約625.7兆円）
+
+## 作成について
+
+このサイトは juse-spark-1.3 で作成されました。

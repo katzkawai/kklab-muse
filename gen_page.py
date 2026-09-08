@@ -48,7 +48,7 @@ html = f"""<!DOCTYPE html>
     <tr><th>年</th><th>名目GDP（兆円）</th></tr>
 {trs}
   </table>
-  <footer>1990年→2024年の名目GDP増加率：約35.2%。単一ファイル（画像内包）のためオフラインで表示できる。</footer>
+  <footer>1990年→2024年の名目GDP増加率：約35.2%。単一ファイル（画像内包）のためオフラインで表示できる。このサイトは juse-spark-1.3 で作成されました。</footer>
 </main>
 </body>
 </html>
